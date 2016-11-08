@@ -8,7 +8,7 @@
 
 You can use `Array.indexOf` to find the index of a value in an Array. Array.indexOf can find either primitive values or JavaScript objects. If the value is not found, `Array.indexOf` will return -1.
 
-Here is an example of using `indexOf`:
+Here is an example using `indexOf`:
 
 ```javascript
 {{ examples/indexof.js }}
@@ -24,7 +24,7 @@ And the output is:
 
 The `filter` method creates a new array with all elements that pass the test implemented by the provided function.
 
-Here is an example of using `filter`:
+Here is an example using `filter`:
 
 ```javascript
 {{ examples/filter.js }}
@@ -40,7 +40,7 @@ And the output is:
 
 The `forEach` method executes a provided function once per array element. Thus we can _iterate_ over an Array without needing an `index` variable (like we had with the classic for loop of `for(var i=0; i<arr.length; i++)`.
 
-Here is an example of using `forEach`:
+Here is an example using `forEach`:
 
 ```javascript
 {{ examples/foreach.js }}
@@ -54,9 +54,18 @@ And the output is:
 
 ### map
 
-The `map` method creates a new array with the results of calling a provided function on every element in the array. You can think of `map` as _mapping_ the elements of one Array to the elements of a new Array using a mapping function that you provide (remember `domain` and `range` from Algegra?).
+The `map` method creates a new array with the results of calling a provided function on every element in the array. You can think of `map` as _mapping_ the elements of one Array to the elements of a new Array using a mapping function that you provide.
 
-Here is an example of using `map`:
+---
+
+Remember `domain` and `range` from Algegra? This is basically what the `map` function does.
+
+![Domain and Range](images/domain-range-codomain.gif
+)
+
+---
+
+Here is an example using `map`:
 
 ```javascript
 {{ examples/map.js }}
